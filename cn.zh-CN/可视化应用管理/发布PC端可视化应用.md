@@ -12,7 +12,7 @@ keyword: 发布可视化应用
 
 3.  在PC端画布编辑器中，单击页面右上角的**发布**图标。
 
-    ![发布按键](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/zh-CN/5992634951/p80851.png)
+    ![发布按键](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/zh-CN/5495541061/p80851.png)
 
 4.  在**发布**对话框中，单击**发布大屏**。
 
