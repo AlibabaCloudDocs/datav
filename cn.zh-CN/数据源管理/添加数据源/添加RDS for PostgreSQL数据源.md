@@ -28,10 +28,10 @@
             |参数|说明|
             |--|--|
             |**名称**|数据源的显示名称，可以自由命名。|
-            |**域名**|连接数据库的地址。 **说明：** 该地址是需要DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。
+            |**域名**|连接数据库的地址。 **说明：** 该地址是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。
 
-例如使用内网环境下的阿里云RDS PostgreSQL，域名示例为：pgm-bpxxxxxxxxxxxxxx15970.pg.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
-            |**VPC ID**|VPC实例的ID，此VPC为您的RDS PostgreSQL实例所在的VPC。可进入[RDS管理控制台](https://rdsnext.console.aliyun.com/)，在**实例列表** \> **基本信息** \> **网络类型**中获取。![获取VPC ID](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/zh-CN/8244964951/p55693.png) |
+例如使用内网环境下的阿里云RDS for PostgreSQL，域名示例为：pgm-bpxxxxxxxxxxxxxx15970.pg.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
+            |**VPC ID**|VPC实例的ID，此VPC为您的RDS for PostgreSQL实例所在的VPC。可进入[RDS管理控制台](https://rdsnext.console.aliyun.com/)，在**实例列表** \> **基本信息** \> **网络类型**中获取。![获取VPC ID](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/zh-CN/8244964951/p55693.png) |
             |**实例 ID**|VPC下数据库实例的ID，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。|
             |**用户名**|登录数据库的用户名。|
             |**密码**|登录数据库的密码。|
@@ -50,9 +50,9 @@
             |参数|说明|
             |--|--|
             |**名称**|数据源的显示名称，可以自由命名。|
-            |**域名**|连接数据库的地址。 **说明：** 该地址是需要DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。
+            |**域名**|连接数据库的地址。 **说明：** 该地址是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。
 
-例如使用内网环境下的阿里云RDS PostgreSQL，域名示例为：pgm-bpxxxxxxxxxxxxxx15970.pg.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
+例如使用内网环境下的阿里云RDS for PostgreSQL，域名示例为：pgm-bpxxxxxxxxxxxxxx15970.pg.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
             |**用户名**|登录数据库的用户名。|
             |**密码**|登录数据库的密码。|
             |**端口**|数据库设置的端口。|
@@ -83,9 +83,9 @@
     |参数|说明|
     |--|--|
     |**名称**|数据源的显示名称，可以自由命名。|
-    |**域名**|连接数据库的地址。 **说明：** 该地址是需要DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。
+    |**域名**|连接数据库的地址。 **说明：** 该地址是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的域名或IP地址。
 
-例如使用外网环境下的阿里云RDS PostgreSQL，域名示例为：pgm-bpxxxxxxxxxxxxxxqo.pg.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
+例如使用外网环境下的阿里云RDS for PostgreSQL，域名示例为：pgm-bpxxxxxxxxxxxxxxqo.pg.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
     |**用户名**|登录数据库的用户名。|
     |**密码**|登录数据库的密码。|
     |**端口**|数据库设置的端口。|
