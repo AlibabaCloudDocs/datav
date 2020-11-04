@@ -26,10 +26,10 @@
             |参数|说明|
             |--|--|
             |**名称**|数据源的显示名称，可以自由命名。|
-            |**域名**|连接数据库的URL地址。 **说明：** 此处的URL地址不是官网页面的URL，也不是本机的IP，是需要DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的URL地址。
+            |**域名**|连接数据库的URL地址。 **说明：** 此处的URL地址不是官网页面的URL，也不是本机的IP，是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的URL地址。
 
-例如使用内网环境下的阿里云RDS SQLServer，域名示例为：rm-bpxxxxxxxxx33150.sqlserver.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
-            |**VPC ID**|VPC实例的ID，此VPC为您的RDS SQLServer实例所在的VPC。可进入[RDS管理控制台](https://rdsnext.console.aliyun.com/)，在**实例列表** \> **基本信息** \> **网络类型**中获取。![获取VPC ID](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/zh-CN/8244964951/p55693.png) |
+例如使用内网环境下的阿里云RDS for SQLServer，域名示例为：rm-bpxxxxxxxxx33150.sqlserver.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
+            |**VPC ID**|VPC实例的ID，此VPC为您的RDS for SQLServer实例所在的VPC。可进入[RDS管理控制台](https://rdsnext.console.aliyun.com/)，在**实例列表** \> **基本信息** \> **网络类型**中获取。![获取VPC ID](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/zh-CN/8244964951/p55693.png) |
             |**实例 ID**|VPC下数据库实例的ID，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。|
             |**用户名**|登录数据库的用户名。|
             |**密码**|登录数据库的密码。|
@@ -48,9 +48,9 @@
             |参数|说明|
             |--|--|
             |**名称**|数据源的显示名称，可以自由命名。|
-            |**域名**|连接数据库的URL地址。 **说明：** 此处的URL地址不是官网页面的URL，也不是本机的IP，是需要DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的URL地址。
+            |**域名**|连接数据库的URL地址。 **说明：** 此处的URL地址不是官网页面的URL，也不是本机的IP，是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的URL地址。
 
-例如使用内网环境下的阿里云RDS SQLServer，域名示例为：rm-bpxxxxxxxxx33150.sqlserver.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
+例如使用内网环境下的阿里云RDS for SQLServer，域名示例为：rm-bpxxxxxxxxx33150.sqlserver.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
             |**用户名**|登录数据库的用户名。|
             |**密码**|登录数据库的密码。|
             |**端口**|数据库设置的端口。|
@@ -83,7 +83,9 @@
     |参数|说明|
     |--|--|
     |**名称**|数据源的显示名称，可以自由命名。|
-    |**域名**|连接数据库的URL地址。 **说明：** 此处的URL地址不是官网页面的URL，也不是本机的IP，是需要DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的URL地址。 |
+    |**域名**|连接数据库的URL地址。 **说明：** 此处的URL地址不是官网页面的URL，也不是本机的IP，是DataV服务器能够通过公网或阿里云部分Region内网访问您数据库的URL地址。
+
+例如使用外环境下的阿里云RDS for SQLServer，域名示例为：rm-bpxxxxxxxxxxxxdo.sqlserver.rds.aliyuncs.com，可在[RDS管理控制台](https://rdsnext.console.aliyun.com/)的实例基本信息页面获取。 |
     |**用户名**|登录数据库的用户名。|
     |**密码**|登录数据库的密码。|
     |**端口**|数据库设置的端口。|
