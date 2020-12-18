@@ -6,7 +6,7 @@
 
 2.  在**我的可视化**页面中，选择一个PC端可视化应用，单击右上角的**预览**图标。
 
-    ![预览可视化大屏](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/zh-CN/8649822951/p8029.png)
+    ![预览可视化大屏](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/zh-CN/8649822951/p8029.png)
 
     预览成功且PC端可视化应用符合预期后，可将PC端可视化应用发布到线上环境供其他人员在线观看。
 
