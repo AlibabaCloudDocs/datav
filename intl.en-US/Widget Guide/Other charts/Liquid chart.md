@@ -30,7 +30,7 @@ You can add one or more liquid charts to a project to display a percentage value
     -   **Phase**: Manually enter a numeric value or drag the slider to change the wave phase, with a range of 0 to 360.
     -   **Cycle**: Manually enter a numeric value or drag the slider to change the wave period, covering a range of 0.5 to 60, units are seconds.
     -   **Transparency**: Manually enter a numeric value or drag the slider to change the transparency of the wave, from 0 to 1.
-    -   **Animation**: Click**Eye button** Displays animation features.
+    -   **Animation**: Click **Eye button** Displays animation features.
         -   **Direction**: Click the drop-down arrow to select a style for the direction.
             -   Left to right.
             -   Right to left.
