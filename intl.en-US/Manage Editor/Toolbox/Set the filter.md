@@ -12,11 +12,11 @@ The DataV Toolbox allows you to set the filter. With this function, you can set 
 
 3.  In Canvas Editor, click the **Toolbox** icon in the toolbar.
 
-    ![Toolbox](https://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/en-US/7428507951/p93869.png)
+    ![Toolbox](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/7428507951/p93869.png)
 
 4.  In the upper-left corner of the canvas, turn on **Filter**.
 
-    ![Turn on Filter](../images/p59701.png)
+    ![Turn on Filter](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/1634960161/p59701.png)
 
     **Note:** When you open a new project for the first time, **Toolbox** is enabled by default. In the upper-left corner of the canvas, the **Filter** function is disabled by default. To enable this function, turn on **Filter** and configure the filter parameters.
 
@@ -34,10 +34,10 @@ The DataV Toolbox allows you to set the filter. With this function, you can set 
 
     **Update Settings** is dimmed by default. You can click it only after the filter settings are modified.
 
-    ![Update Settings button](../images/p60656.png)
+    ![Update Settings button](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/1634960161/p60656.png)
 
     **Note:** If you are not satisfied with the preview effect, click **Cancel** and reconfigure the filter. After you click **Cancel**, the **Apply** dialog box is displayed, prompting you to cancel or save the updated filter settings.
 
-    ![Apply dialog box](../images/p60662.png)
+    ![Apply dialog box](https://static-aliyun-doc.oss-accelerate.aliyuncs.com/assets/img/en-US/1634960161/p60662.png)
 
 
