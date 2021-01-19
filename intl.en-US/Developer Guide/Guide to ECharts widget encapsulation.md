@@ -1,12 +1,12 @@
-# Guide to ECharts widget encapsulation {#concept_fdp_2yl_q2b .concept}
+# Guide to ECharts widget encapsulation
 
 This topic explains how to encapsulate ECharts widgets using the example [Bar Animation Delay](http://echarts.baidu.com/demo.html?spm=a2c4g.11186623.2.4.wQf3kR#bar-animation-delay) on the ECharts website. ECharts like this echarts.datatool type used as an example here are not directly compatible with DataV. Therefore, to encapsulate this chart type into a widget, you need to first extract the configurations and data of this EChart and then convert them into a supported format.
 
-## Extract configurations and data {#section_enh_gyl_q2b .section}
+## Extract configurations and data
 
 According to the configurations in the left-side code bar for this example, you can extract configurations and data from the option variable. The complete code is shown as follows.
 
-``` {#codeblock_i0y_axp_1kw}
+```
 var xAxisData = [];
 var data1 = [];
 var data2 = [];
@@ -74,7 +74,7 @@ In the preceding code, you can find the following data item configurations:
 
 To convert these configurations into data elements that are recognized by DataV, you must perform the following operations.
 
-``` {#codeblock_a33_mlp_xl3}
+```
 [
   {
     x: 'An item value of option, xAxis, and data', 
@@ -86,9 +86,9 @@ To convert these configurations into data elements that are recognized by DataV,
 
 Except for the preceding three data items, the rest are configurations.
 
-## Write package.json {#section_jcj_kyl_q2b .section}
+## Write package.json
 
-Write the preceding configurations and data into package.json based on [package.json specifications](reseller.en-US/Developer Guide/Document structure/package.json specifications.md#) . You need to note that:
+Write the preceding configurations and data into package.json based on [package.json specifications](/intl.en-US/Developer Guide/Document structure/Specifications of a package.json file.md) . You need to note that:
 
 -   You can delete configurations that are not required by your widgets.
 -   If the configuration that you need is not in the example code, you can obtain it from [ECharts Chart Configuration](http://echarts.baidu.com/option.html?spm=a2c4g.11186623.2.5.wQf3kR).
@@ -100,7 +100,7 @@ Write the preceding configurations and data into package.json based on [package.
 
 The following is part of the ECharts-chart converted package.json from the preceding example.
 
-``` {#codeblock_kvz_o5o_z43}
+```
 {
   "datav": {
     "cn_name": "Bar chart",
@@ -1323,9 +1323,9 @@ The following is part of the ECharts-chart converted package.json from the prece
 }
 ```
 
-## Write index.js {#section_us2_pyl_q2b .section}
+## Write index.js
 
-To write the index.js file, complete the following steps. For more information, see [index.js specifications](reseller.en-US/Developer Guide/Document structure/index.js specifications.md#).
+To write the index.js file, complete the following steps. For more information, see [index.js specifications](/intl.en-US/Developer Guide/Document structure/Specifications of an index.js file.md).
 
 1.  In the initaization function, run EChart.init.
 2.  In the rendering function, run chart.setOption.
