@@ -1,10 +1,13 @@
-# Overview {#concept_j52_1cl_q2b .concept}
+# Overview
 
-```
---coms-name //Widget name
-|--index.js //Widget file that can be directly called by users
-|--package.json //Widget configuration
-|--readme.md //Widget description
-|--history.md //Widget update history
-```
+This topic provides an overview of files used to develop DataV widgets.
+
+Before you develop widgets, you must create a folder to serve as the widget package. We recommend that you use the widget name to name the package. A widget package contains the following files.
+
+|File|Description|
+|----|-----------|
+|index.js|The API of the widget.|
+|package.json|The settings of the widget.|
+|readme.md|The description of the widget.|
+|history.md|The update history of the widget.|
 
