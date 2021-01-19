@@ -1,10 +1,10 @@
-# FAQ {#concept_wsh_wyl_q2b .concept}
+# FAQ
 
-## How and where can I find widget templates? {#section_b4l_yyl_q2b .section}
+## How and where can I find widget templates?
 
-In the command line, install datav-cli and use the datav init command to download and install widget templates. For more information, see [Install DataV development tools](reseller.en-US/Developer Guide/Quick start.md#).
+In the command line, install datav-cli and use the datav init command to download and install widget templates. For more information, see [Install DataV development tools](/intl.en-US/Developer Guide/Quick start.md).
 
-## Why did my widgets fail to publish? {#section_gsh_1zl_q2b .section}
+## Why did my widgets fail to publish?
 
 Widgets may fail to publish due to one of the following reasons:
 
@@ -17,7 +17,7 @@ Widgets may fail to publish due to one of the following reasons:
     If your widget has not passed review after much time, contact Alibaba Cloud technical support.
 
 
-## How do I write a data event so that, when I trigger the event, other widgets listen? {#section_bnd_czl_q2b .section}
+## How do I write a data event so that, when I trigger the event, other widgets listen?
 
 To write a data event so that, when the event is triggered, other widgets can listen, the procedure is as follows:
 
@@ -28,27 +28,27 @@ To write a data event so that, when the event is triggered, other widgets can li
 
 3.  In the Data pane, other widgets must use the format of a colon plus a parameter name \(: xxx\) to call the corresponding data of this parameter.
 
-## How can I write an ECharts widget? {#section_lzv_fzl_q2b .section}
+## How can I write an ECharts widget?
 
-For information about how to write an ECharts widget, see [ECharts widget encapsulation guide](reseller.en-US/Developer Guide/Guide to ECharts widget encapsulation.md#).
+For information about how to write an ECharts widget, see [ECharts widget encapsulation guide](/intl.en-US/Developer Guide/Guide to ECharts widget encapsulation.md).
 
-## Why did I my local picture fail to upload? {#section_f2h_lzl_q2b .section}
+## Why did I my local picture fail to upload?
 
 If you need to use a local static file as a resource path, you need to create a resources file in the root directory where your widget is located, put resources, such as pictures into the directory, and call the path, such as, ./resources/xxx.png.
 
-## Why am I unable to find the packages of my program? {#section_kvb_mzl_q2b .section}
+## Why am I unable to find the packages of my program?
 
 If you continue to receive an error that indicates that packages were not found after you run the npm install command, remove the datav-cli tool and reinstall it.
 
-## Why have my widgets not passed review yet? {#section_wkh_nzl_q2b .section}
+## Why have my widgets not passed review yet?
 
 If your widgets have not passed review after much time, contact Alibaba Cloud technical support.
 
-## Why do I suddenly not have permission to publish widgets? {#section_i3t_4zl_q2b .section}
+## Why do I suddenly not have permission to publish widgets?
 
 If you are using the DataV Developer Edition and have not uploaded any widgets or tutorials for two months, your permission will be remoked. You can re-apply for the permission or contact Alibaba Cloud technical support.
 
-## Why did my widgets work properly locally, but an error occured when they were used in DataV? {#section_xsj_pzl_q2b .section}
+## Why did my widgets work properly locally, but an error occured when they were used in DataV?
 
 This may have been caused by one of the following reasons:
 
@@ -59,11 +59,11 @@ This may have been caused by one of the following reasons:
 -   The DOM model was modified outside of the container.
 -   When using jQuery to access the DOM model, the `$(‘.classname’)` operation is not allowed. Rather, you must search for DOM nodes in the container.
 
-## Why am I unable to find my widgets on the edit page? {#section_jvz_qzl_q2b .section}
+## Why am I unable to find my widgets on the edit page?
 
 To view your widgets, go to **My Widgets** on the top navigation bar.
 
-## Why are buyers unable to find my widgets after they bought them? {#section_n4s_rzl_q2b .section}
+## Why are buyers unable to find my widgets after they bought them?
 
-Buyers probably cannot find your widgets because your widget classification may not be set properly. For more information, see [type fields](reseller.en-US/Developer Guide/Document structure/package.json specifications.md#).
+Buyers probably cannot find your widgets because your widget classification may not be set properly. For more information, see [type fields](/intl.en-US/Developer Guide/Document structure/Specifications of a package.json file.md).
 
